@@ -7,15 +7,11 @@ Academic Context:
 - Institution: VNU University of Engineering and Technology (UET)
 
 ⚙️ System Architecture
-
-![Proteus schematic](docs/proteus-schematic.jpg)
-
 1. Processing Unit: ATmega16 (8 MHz) reads sensor data and executes control logic.
 2. Sensor: DS18B20 digital temperature sensor communicates over a single-wire (1-Wire).
 3. Actuators: Timer0 generates a Fast-PWM signal, fed into an L298N H-bridge driver that controls a 5010 brushless DC cooling fan.
 4. Status Indication: Three LEDs (green/yellow/red) on PC0–PC2 indicate the current temperature band.
 5. Host Communication: UART (9600 baud) streams a PC, where a Python GUI parses and displays them live.
-
 
 🛠 Hardware Specifications
 
@@ -50,7 +46,6 @@ A multi-threaded Python/Tkinter application connects to the UART stream, parses 
 
 Requires Python 3.8+ and PySerial. Select the COM port of your USB-to-UART module, set the baud rate to 9600, then click 'CONNECT' to start streaming live temperature data.
 
----
 📂 Repository Structure
 
 ├── main.c                     # ATmega16 firmware 
