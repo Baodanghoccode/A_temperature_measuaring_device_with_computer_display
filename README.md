@@ -69,8 +69,7 @@ python gui.py
 ```
 ├── main.c                     # ATmega16 firmware
 ├── gui.py                     # Python desktop app
-├── docs/
-│   ├── proteus-schematic.jpg  # Circuit diagram (Proteus)
-│   └── real-product.jpg       # Assembled hardware
+├── proteus-schematic.jpg      # Circuit diagram (Proteus)
+├── real-product.jpg           # Assembled hardware
 └── README.md                  # Project documentation
 ```
