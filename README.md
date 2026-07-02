@@ -10,7 +10,7 @@ The system demonstrates core embedded engineering techniques, including 1-Wire c
 
 ## ⚙️ System Architecture
 
-![Proteus schematic](docs/proteus-schematic.jpg)
+![Proteus schematic](proteus-schematic.jpg)
 
 1. **Processing Unit:** ATmega16 (8 MHz) reads sensor data and executes control logic.
 2. **Sensor:** DS18B20 digital temperature sensor communicates over a single-wire (1-Wire) bus.
